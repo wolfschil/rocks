@@ -1,0 +1,53 @@
+.homepagephoto{
+	padding-left:40%;
+	width: 90%;
+	overflow: hidden;
+}
+
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: right;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.title{
+	padding-left: 150px;
+	position: absolute;
+	font-size:200px;
+}
+
+.quote{
+	position: absolute;
+	margin-top: 550px;
+	margin-left: 700px;
+	margin-right: 100px;
+	color: white;
+}
+
+
+
+
+
+
+
