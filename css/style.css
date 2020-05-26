@@ -9,6 +9,23 @@
 	width: 60%;
 	overflow: hidden;
 }
+.coalpagephoto{
+	position: absolute;
+	padding-top:150px;
+	padding-left: 400px;
+	width: 60%;
+	overflow: hidden;
+	z-index: 1;
+}
+.marblepagephoto{
+	position: absolute;
+	padding-top:150px;
+	padding-left: 500px;
+	width: 60%;
+	overflow: hidden;
+	z-index: 1;
+}
+
 
 .topnav {
   background-color: ;
@@ -46,6 +63,20 @@
 	font-size:200px;
 	padding-left: 400px;
 }
+.titlecoal{
+	position: absolute;
+	font-size:200px;
+	padding-left: 300px;
+	padding-bottom: 20px;
+	z-index: 2;
+}
+.titlemarble{
+	position: absolute;
+	font-size:200px;
+	padding-left: 300px;
+	padding-bottom: 20px;
+	z-index: 2;
+}
 .quote{
 	position: absolute;
 	margin-top: 550px;
@@ -53,6 +84,36 @@
 	margin-right: 100px;
 	color: white;
 }
+.quotesand{
+		position: absolute;
+	margin-top: 350px;
+	margin-left: 870px;
+	margin-right: 100px;
+
+}
+
+.quotecoal{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 100px;
+	margin-right: 950px;
+	z-index: 2;
+	background-color: white;
+	padding: 20px;
+}
+.quotemarble{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 60px;
+	margin-right: 990px;
+	z-index: 2;
+	background-color: white;
+	padding: 20px;
+}
+
+
+
+
 
 
 
