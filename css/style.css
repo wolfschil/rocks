@@ -12,6 +12,8 @@
 	padding-top:120px;
 	width: 60%;
 	overflow: hidden;
+	-webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .coalpagephoto{
 	position: absolute;
@@ -20,6 +22,8 @@
 	width: 60%;
 	overflow: hidden;
 	z-index: 1;
+	-webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .marblepagephoto{
 	position: absolute;
@@ -28,6 +32,8 @@
 	width: 60%;
 	overflow: hidden;
 	z-index: 1;
+	-webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 
@@ -69,6 +75,8 @@
 	position: absolute;
 	font-size:200px;
 	padding-left: 400px;
+	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
 }
 .titlecoal{
 	position: absolute;
@@ -76,13 +84,27 @@
 	padding-left: 300px;
 	padding-bottom: 20px;
 	z-index: 2;
+	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
 }
+.titlegranite{
+	position: absolute;
+	font-size:200px;
+	padding-left: 400px;
+	padding-bottom: 20px;
+	z-index: 1;
+	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+}
+
 .titlemarble{
 	position: absolute;
 	font-size:200px;
 	padding-left: 300px;
 	padding-bottom: 20px;
 	z-index: 2;
+	-webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
 }
 .quote{
 	position: absolute;
